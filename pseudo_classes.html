@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="pseudo_classes.css">
 </head>
 <body>
+    <header>
+        <p>Página de Formulário</p>
+    </header>
     <form id="newsletter_form">
         <fieldset>
             <p>Assine nossa NewsLetter</p>
-            <label>Email</label>
-            <input type="email">
-            <input type="submit">
+            <label for="email" class="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email aqui...">
+            <input type="submit" id="bt_enviar" value="Assinar">
         </fieldset>
     </form>
 </body>
