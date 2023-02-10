@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+body {
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: rgb(183,234,235);
+    background: linear-gradient(0deg, rgba(183,234,235,1) 0%, rgba(245,237,220,1) 100%);
+}
+
+article {
+    border-style: dashed;
+    background: rgb(183,234,235);
+    background: linear-gradient(0deg, rgba(183,234,235,1) 0%, rgba(245,237,220,1) 100%);
+    margin-top: 1%;
+}
