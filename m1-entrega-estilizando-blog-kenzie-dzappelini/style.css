@@ -16,6 +16,12 @@ h1 {
     color: blue;
 }
 
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
 h2 {
     color: blue;
 }
